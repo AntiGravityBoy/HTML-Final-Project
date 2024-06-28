@@ -43,7 +43,15 @@ li {
     font-size: 14px;
     font-weight: 600;
     color: #243E63;
+    transition: all 300ms ease;
+    border-color: black;
+    border-bottom-width: 2px;
 }
+
+.nav__link:hover {
+    color:#6415ff;
+}
+
 
 .login {
     margin-left: 48px;
@@ -58,6 +66,11 @@ li {
     letter-spacing: 0.025rem;
     font-size: 1.5rem;
     color: rgb(36, 62, 99);
+    transition: all 300ms ease;
+}
+
+.logo__treact:hover {
+    color: rgb(100 21 255);
 }
 
 .sign-up {
@@ -65,7 +78,14 @@ li {
     color: rgb(247 250 252);
     padding: 12px 32px;
     border-radius: 32px;
+    transition: all 300ms ease;
 }
+
+.sign-up:hover {
+    background-color: #320096;
+    color: lightgray;
+}
+
 
 .logo__img img {
     width: 40px;
@@ -98,7 +118,7 @@ li {
 }
 
 .header__left-column {
-    display: flex;
+    
     flex-direction: column;
     position: relative;
     margin-right: auto;
@@ -112,7 +132,11 @@ li {
   margin-right: auto;
   max-width: 28rem;
   text-align: center;
+  font-size: 100%;
+}
 
+::placeholder {
+    opacity: 0.35;
 }
 
 .inputActions input {
@@ -123,23 +147,42 @@ li {
     font-size: 100%;
     padding: 20px 32px;
     border: 2px 0px;
+    position: absolute;
+    left: -32px;
+    border-style: solid;
+    border-color: rgb(226, 232, 240);
+    font-weight: 500;
+    transition: all 300ms ease;
+}
+
+.inputActions input:hover {
+    border-color: rgb(140, 142, 145);
 }
 
 .inputActions button {
     width: 100%;
-    width: 110px;
+    width: 160px;
     display: flex;
     align-items: center;
     justify-content: center;
     box-align: center;
     position: absolute;
-    right: 0px;
-    left: 0px;
-    bottom: 0px;
+    left: 250px;
+    bottom: -59px;
+    top: 4px;
     background-color: rgb(100 21 255);
     font-weight: 700;
     color: rgb(247 250 252);
     border-radius: 9999px;
+    border-style: solid;
+    border-color: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 300ms ease;
+}
+
+.inputActions button:hover {
+    background-color: rgb(52, 9, 138);
 }
 
 .header__right-column  {
@@ -161,6 +204,15 @@ li {
     position: relative;
     margin-left: auto;
     margin-right: auto;
+}
+
+.customer__logo {
+    padding: 0px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    --tw-text-opacity: 1;
+    color: rgb(160 174 192 / var(--tw-text-opacity));
 }
 
 @media (min-width: 1024px) {
