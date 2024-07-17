@@ -958,6 +958,16 @@ li {
 
 /* TESTIMONIALS AND FAQS */
 
+.testcolumn {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
 .sub__heading--testimonial {
     color: #6415ff;
     font-weight: 700;
@@ -1013,6 +1023,98 @@ li {
   color: rgb(74 85 104 / var(--tw-text-opacity));
 }
 
+.testimonial--reviewername {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #243e63;
+}
+
+.testimonial--reviewertitle {
+  font-weight: 500;
+    --tw-text-opacity: 1;
+    color: rgb(124 139 161 / var(--tw-text-opacity));
+}
+
+.TwoColumn--image img{
+  border-radius: 9999px;
+  width: 80px;
+  height: 80px;
+}
+
+.testimonial--reviewer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.testimonial--imgandreview {
+  display: flex;
+  align-items: center;
+  
+}
+
+.testimonial--reviewerdesc {
+  margin-left: 24px;
+}
+
+.testcolumn--left {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testcolumn--right {
+  width: 50%;
+  position: inherit;
+  left: 64px;
+}
+
+
+.testcolumn--left img {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+.testimonial--button {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+  border-radius: 9999px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(237 242 247 / var(--tw-bg-opacity));
+  padding: 1rem;
+  --tw-text-opacity: 1;
+  color: rgb(100 21 255 / var(--tw-text-opacity));
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  transition-duration: 300ms;
+  cursor: pointer;
+  border-style: none;
+}
+
+
+.testimonial--button svg {
+ height: 1rem;
+ width: 1rem;
+ stroke-width: 3;
+}
+
+.divider {
+  margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    border-style: solid;
+    border-right-width: 1px;
+    opacity: 0.15
+}
+
+.testimonial--buttons {
+  display: flex;
+  justify-content: center;
+}
+
+
+
 @media (min-width: 1024px) {
   .header__left-column {
     width: 41.6667%;
@@ -1020,3 +1122,5 @@ li {
     text-align: left;
   }
 }
+
+
