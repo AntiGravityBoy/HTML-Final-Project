@@ -956,7 +956,7 @@ li {
 }
 
 
-/* TESTIMONIALS AND FAQS */
+/* TESTIMONIALS */
 
 .testcolumn {
   display: flex;
@@ -1113,7 +1113,111 @@ li {
   justify-content: center;
 }
 
+.testcontainer {
+  padding: 98px 0px;
+}
 
+
+/* FAQS */
+
+.FAQS--container {
+  padding: 98px 0px;
+}
+
+.container--flex {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.FAQS--heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.FAQS--subheading {
+    font-weight: 700;
+    text-transform: uppercase;
+    --tw-text-opacity: 1;
+    color: rgb(100 21 255 / var(--tw-text-opacity));
+    letter-spacing: 0.025em;
+    font-size: 16px;
+    letter-spacing: 0.1rem;
+}
+
+.FAQS--headingtop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 16px;
+  text-align: left;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1.25;
+  letter-spacing: 0.025em;
+  color: #243e63;
+}
+
+.FAQS--para {
+  width: 100%;
+    text-align: center;
+    margin-top: 16px;
+    max-width: 40rem;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.625;
+    --tw-text-opacity: 1;
+    color: rgb(124 139 161 / var(--tw-text-opacity));
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.FAQS--questions {
+  position: relative;
+  margin-top: 48px;
+  max-width: 56rem; 
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.questions--column {
+  margin-top: 1.25rem;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 0.5rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(237 242 247 / var(--tw-bg-opacity));
+    padding: 1.25rem 2rem;
+    --tw-text-opacity: 1;
+    color: rgb(45 55 72 / var(--tw-text-opacity));
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    transition-duration: 300ms;
+}
+
+.question--column_inside {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;  
+}
+
+.questionarrow svg {
+  margin-left: 0.5rem;
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  transition-duration: 300ms;
+}
+
+.question {
+  width: 800px;
+  font-size: 20px;
+  font-weight: 600;
+}
 
 @media (min-width: 1024px) {
   .header__left-column {
