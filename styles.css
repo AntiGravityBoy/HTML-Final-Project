@@ -1313,7 +1313,61 @@ li {
 
 }
 
+footer {
+  background-color: #6415ff;
+}
 
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  width:calc(100%/5);
+  align-items: center;
+  text-align: left;
+}
+
+.link li {
+  text-align: left;
+}
+
+.link__info {
+  margin-top: 24px; 
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.link__info--listitem {
+  margin-top: 12px;
+}
+
+.link__info--listed {
+  color: #F7FAFC;
+    border-bottom-width: 2px;
+    border-color: transparent;
+    padding-bottom: 0.25rem;
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    transition-duration: 300ms;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.link__description {
+  font-weight: 700;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #F7FAFC;
+}
+
+.footer__container {
+  padding: 96px 32px;
+}
 
 @media (min-width: 1024px) {
   .header__left-column {
