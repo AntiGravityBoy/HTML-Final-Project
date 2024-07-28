@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="index.js"></script>
   </head>
   <body>
     <section>
@@ -17,6 +18,7 @@
                 alt=""
               />Treact</a
             >
+            
             <ul class="nav__links">
               <li><a href="#" class="nav__link">About</a></li>
               <li><a href="#" class="nav__link">Blog</a></li>
@@ -27,65 +29,78 @@
                 <a href="#" class="nav__link nav__link--sign-up">Sign Up</a>
               </li>
             </ul>
+
+            <button class="btn__menu" onclick="openMenu()">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="light___StyledMenuIcon-sc-lj69nl-15 bPlZcF"
+              >
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+              </svg>
+            </button>
+            <div class="menu__backdrop">
+              <button class="btn__menu btn__menu--close"  onclick="closeMenu()">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="light___StyledCloseIcon-sc-lj69nl-14 brSrPp"
+                >
+                  <line x1="18" y1="6" x2="6" y2="18"></line>
+                  <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+              </button>
+              <ul class="menu__links">
+                <li class="menu__list">
+                  <a href="#" class="menu__link">About</a>
+                </li>
+                <li class="menu__list">
+                  <a href="#" class="menu__link">Blog</a>
+                </li>
+                <li class="menu__list">
+                  <a href="#" class="menu__link">Pricing</a>
+                </li>
+                <li class="menu__list">
+                  <a href="#" class="menu__link">Contact Us</a>
+                </li>
+                <li class="menu__list">
+                  <a href="#" class="menu__link">Login</a>
+                </li>
+                <li>
+                  <a href="#" class="nav__link nav__link--sign-up nav__link--sign-up-burger">Sign Up</a>
+                </li>
+              </ul>
+            </div>
+
+
+
+
+
+
+
+
+
+
+             </div>
           </div>
         </div>
-        <button class="btn__menu">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="light___StyledMenuIcon-sc-lj69nl-15 bPlZcF"
-          >
-            <line x1="3" y1="12" x2="21" y2="12"></line>
-            <line x1="3" y1="6" x2="21" y2="6"></line>
-            <line x1="3" y1="18" x2="21" y2="18"></line>
-          </svg>
-        </button>
-        <div class="menu__backdrop">
-          <button class="btn__menu btn__menu--close">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="light___StyledCloseIcon-sc-lj69nl-14 brSrPp"
-            >
-              <line x1="18" y1="6" x2="6" y2="18"></line>
-              <line x1="6" y1="6" x2="18" y2="18"></line>
-            </svg>
-          </button>
-          <ul class="menu__lists">
-            <li class="menu__list">
-              <a href="#" class="menu__link">About</a>
-            </li>
-            <li class="menu__list">
-              <a href="#" class="menu__link">Blog</a>
-            </li>
-            <li class="menu__list">
-              <a href="#" class="menu__link">Pricing</a>
-            </li>
-            <li class="menu__list">
-              <a href="#" class="menu__link">Contact Us</a>
-            </li>
-            <li class="menu__list">
-              <a href="#" class="menu__link">Login</a>
-            </li>
-            <li>
-              <a href="#" class="nav__link nav__link--sign-up">Sign Up</a>
-            </li>
-          </ul>
-        </div>
+    
       </nav>
       <header>
         <div class="row">
