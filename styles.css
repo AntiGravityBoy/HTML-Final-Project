@@ -415,6 +415,17 @@ li {
   position: relative;
 }
 
+.steps__container1 {
+  padding: 98px 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1280px;
+  position: relative;
+}
+
 .steps__column {
   display: flex;
   flex-direction: row;
@@ -1831,6 +1842,55 @@ footer {
     align-items: center;
     flex-direction: column-reverse;
   }
+  .steps__left--column {
+    padding-right: 0px;
+    text-align: center;
+    max-width: 30rem;
+    width: 100%;
+  }
+  .steps__title {
+    text-align: center;
+  }
+
+  .steps__para {
+    font-size: 14px;
+    text-align: center;
+  }
+  .steps__right--column {
+    width: 94%;
+    border-radius: 2px;
+  }
+  .steps__column {
+    align-items: center;
+    flex-direction: column;
+  }
+  .steps__list {
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .steps__list--description {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    margin-top: 0px;
+    text-align: center;
+  }
+  .steps__right2column {
+    padding-left: 16px;
+    align-items: center;
+  }
+  .steps__heading {
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+  }
+  .steps__listing {
+    padding-bottom: 12px;
+  }
+  
 }
 
 @media (max-width: 425px) {
