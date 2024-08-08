@@ -1736,7 +1736,10 @@ footer {
     align-items: center;
     justify-content: space-around;
   }
-
+  .plans__headingtop {
+    display: initial;
+    text-align: center;
+  }
   .plan--business {
     max-width: 24rem;
   }
@@ -1781,6 +1784,10 @@ footer {
   .getstarted--para {
     text-align: center;
   }
+  .plans__container {
+    padding-right: 64px;
+    padding-left: 64px;
+  }
 }
 
 @media (min-width: 857px) {
@@ -1791,10 +1798,11 @@ footer {
 
 @media (max-width: 648px) {
   .inputActions button {
-    left: -20px;
+    left: -32px;
     bottom: -141px;
     top: 80px;
-    width: 368px;
+    max-width: 515px;
+    width: 115%;
   }
   .customer__logo {
     margin-top: 104px;
@@ -1862,6 +1870,10 @@ footer {
   }
   .steps__column {
     align-items: center;
+    flex-direction: column-reverse;
+  }
+  .laptopcol {
+    align-items: center;
     flex-direction: column;
   }
   .steps__list {
@@ -1890,7 +1902,71 @@ footer {
   .steps__listing {
     padding-bottom: 12px;
   }
-  
+  .steps__right2column {
+    position: initial;
+  }
+  .steps__left2column img {
+    max-width: 170%;
+  }
+
+  .steps__right--column {
+    padding-bottom: 16px;
+  }
+  .TwoColumn__small--left {
+    align-items: center;
+    justify-content: center;
+  }
+  .TwoColumn__small--right {
+    align-items: center;
+    justify-content: center;
+  }
+  .plans__container {
+    padding-right: 90px;
+    padding-left: 90px;
+  }
+  .steps__left--column {
+    width: 94%;
+  }
+  .plans__headingtop {
+    display: initial;
+    text-align: center;
+    font-size: 36px;
+  }
+  .plans__hpara {
+    font-size: 14px;
+  }
+  .testcolumn {
+    flex-direction: column;
+    position: initial;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .testcontainer {
+    margin-right: 32px;
+    margin-left: 32px;
+  }
+  .testcolumn--right {
+    width: 75%;
+  }
+  .testcolumn--left img {
+    max-width: 150%;
+    padding-bottom: 48px;
+  }
+  .para-testimonial {
+    font-size: 14px;
+    text-align: center;
+  }
+  .testimonial--reviewer {
+    flex-direction: column;
+  }
+  .testimonial--imgandreview {
+    flex-direction: column;
+  }
+  .testimonial--reviewerdesc {
+    margin-left: 0px;
+    padding-bottom: 32px;
+  }
 }
 
 @media (max-width: 425px) {
@@ -1919,7 +1995,8 @@ footer {
     left: -20px;
     bottom: -141px;
     top: 80px;
-    width: 368px;
+    width: 115%;
+    max-width: 425px;
   }
   .customer__logo {
     margin-top: 104px;
