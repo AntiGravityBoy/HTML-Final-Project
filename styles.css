@@ -1967,9 +1967,70 @@ footer {
     margin-left: 0px;
     padding-bottom: 32px;
   }
+  .FAQS--headingtop {
+    font-size: 36px;
+  }
+  .FAQS--para {
+    font-size: 14px;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+  .FAQS--questions {
+    max-width: 44rem;
+  }
+
+  .getstarted--para {
+    font-size: 24px;
+    width: 100%;
+    margin-bottom: 2px;
+  }
+
+  .getstarted--link__buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .start,
+  .contact {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    width: 48%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .questions--column {
+    padding: 1.5rem 2rem;
+  }
+
+  .link {
+    text-align: center;
+  }
+
+  .link__info--listitem,
+  .link li {
+    text-align: center;
+  }
+
+  .footer__info {
+    flex-direction: column;
+  }
+
+  .treact__footer {
+    margin-bottom: 24px;
+  }
+
+  .copyright__para {
+    margin-bottom: 24px;
+  }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 525px) {
   .nav__container {
     margin-left: 32px;
     margin-right: 32px;
@@ -2011,5 +2072,21 @@ footer {
     align-items: center;
     justify-content: center;
     width: 90%;
+  }
+
+
+
+
+
+
+
+  .links {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .link {
+    margin-top: 32px;
+    padding: 16px;
   }
 }
