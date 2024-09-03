@@ -1258,6 +1258,8 @@ li {
   flex-direction: column;
   -webkit-box-align: center;
   align-items: center;
+      padding-left: 56px;
+    padding-right: 56px;
 }
 
 .questions--column {
@@ -1298,7 +1300,7 @@ li {
 /* FOOTER */
 
 .getstarted__container {
-  padding: 98px 0px;
+  padding: 98px 32px;
 }
 
 .getstarted {
@@ -1660,7 +1662,7 @@ footer {
   }
 }
 
-@media (max-width: 856px) {
+@media (max-width: 1130px) {
   .nav__links {
     display: none;
   }
@@ -1717,7 +1719,12 @@ footer {
     padding-left: 16px;
   }
   .steps__left2column img {
-    max-width: 200%;
+    max-width: 100%;
+  }
+
+  .steps__container {
+    padding-right: 32px;
+    padding-left: 32px;
   }
 
   .TwoColumn__small {
@@ -1732,7 +1739,7 @@ footer {
   .plans {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: space-around;
   }
@@ -1766,7 +1773,7 @@ footer {
     max-width: 124%;
   }
   .questions--column {
-    width: 80%;
+    width: 90%;
   }
   .question {
     font-size: 18px;
@@ -1780,19 +1787,40 @@ footer {
   }
   .getstarted--link__buttons {
     width: 56%;
+    justify-content: center;
   }
   .getstarted--para {
     text-align: center;
   }
+
   .plans__container {
     padding-right: 64px;
     padding-left: 64px;
   }
 }
 
-@media (min-width: 857px) {
+@media (min-width: 1131px) {
   .btn__menu {
     display: none;
+  }
+}
+
+@media (max-width: 856px) {
+  .getstarted--para {
+    width: 100%;
+  }
+  .start, .contact {
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+        width: 48%;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        padding-right: 0px;
+        padding-left: 0px;
+  }
+  .questions--column {
+    width: 80%;
   }
 }
 
@@ -1827,6 +1855,8 @@ footer {
   .service__heading {
     font-size: 36px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
   }
   .service__para {
     font-size: 14px;
@@ -1921,8 +1951,7 @@ footer {
     justify-content: center;
   }
   .plans__container {
-    padding-right: 90px;
-    padding-left: 90px;
+    padding: 0px;
   }
   .steps__left--column {
     width: 94%;
@@ -2006,6 +2035,7 @@ footer {
 
   .questions--column {
     padding: 1.5rem 2rem;
+    width: 70%;
   }
 
   .link {
@@ -2074,12 +2104,19 @@ footer {
     width: 90%;
   }
 
+  .plans__hpara {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
 
+  .FAQS--questions {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
 
-
-
-
-
+  .questions--column {
+    width: 60%;
+  }
   .links {
     justify-content: center;
     align-items: center;
@@ -2089,4 +2126,10 @@ footer {
     margin-top: 32px;
     padding: 16px;
   }
+}
+
+@media (max-width: 440px) {
+   .start, .contact {
+    width: 65%;
+   }
 }
