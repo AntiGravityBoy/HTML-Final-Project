@@ -59,6 +59,7 @@ li {
   list-style-type: none;
 }
 
+
 .nav__link {
   margin: 24px;
   text-decoration: none;
@@ -138,6 +139,7 @@ li {
   text-align: left;
   font-size: 18px;
   line-height: 150%;
+  color: #243e63;
 }
 
 .header__left-column {
@@ -1856,7 +1858,7 @@ footer {
     font-size: 36px;
     text-align: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: column  ;
   }
   .service__para {
     font-size: 14px;
@@ -2132,4 +2134,36 @@ footer {
    .start, .contact {
     width: 65%;
    }
+
+   .service {
+    padding-left: 64px;
+    padding-right: 64px;
+   }
+
+   .plan__action {
+    padding-left: 0px;
+    padding-right: 80px;
+   }
+
+   .plan__action--but.business, .plan__action--but.enterprise, .plan__action--but.personal {
+    width: 150%;
+   }
+    
+   .testcontainer {
+    margin-left: 4px;
+    margin-right: 4px;
+   }
+
+   .FAQS--questions {
+    padding-left: 72px;
+    padding-right: 72px;
+   }
+
+   .FAQS--headingtop {
+    display: block;
+    text-align: center;
+   }
+
 }
+
+
