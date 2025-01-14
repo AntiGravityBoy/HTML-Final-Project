@@ -1719,6 +1719,7 @@ footer {
   }
   .steps__right2column {
     padding-left: 16px;
+    padding-right: 64px;
   }
   .steps__left2column img {
     max-width: 100%;
@@ -2132,7 +2133,7 @@ footer {
 
 @media (max-width: 440px) {
    .start, .contact {
-    width: 65%;
+    width: 100%;
    }
 
    .service {
@@ -2162,6 +2163,15 @@ footer {
    .FAQS--headingtop {
     display: block;
     text-align: center;
+   }
+
+}
+
+
+@media (max-width: 355px) {
+  .FAQS--questions {
+    padding-left: 116px;
+    padding-right: 116px;
    }
 
 }
